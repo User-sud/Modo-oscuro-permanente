@@ -3,28 +3,58 @@ background-color: gray;
 transition: 0.4s;
 }
 
-button, .oscuro{
-max-width: 50px;
-max-heigth: 50px;
+button {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:none;
+  border: none;
+  cursor: pointer;
+}
+
+.oscuro{
+max-width: 25px;
+max-heigth: 25px;
 display: block;
+border-radius: 12px;
+transition: 0.7s;
 }
 .claro.no {
 display: none;
+transition: 0.7s;
 }
 
 .oscuro.no {
 display: none;
+transition: 0.7s;
 }
 
 body.dark {
 background-color: #111;
-color: white;
-transition: 0.4s;
+color: gray;
+transition: 0.7s;
 }
 
 .claro {
-max-width: 50px;
-max-heigth: 50px;
+max-width: 25px;
+max-heigth: 25px;
 display: block;
+border-radius: 12px;
+transition: 0.4s;
 }
 
+header {
+text-align: center;
+padding: 20px;
+font-family: Arial;
+font-size: 25px;
+
+}
+
+main {
+text-align: center;
+padding: 10px;
+font-size: 20px;
+max-width: 720px;
+margin:auto;
+}
