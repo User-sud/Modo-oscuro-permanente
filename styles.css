@@ -1,0 +1,30 @@
+body {
+background-color: gray;
+transition: 0.4s;
+}
+
+button, .oscuro{
+max-width: 50px;
+max-heigth: 50px;
+display: block;
+}
+.claro.no {
+display: none;
+}
+
+.oscuro.no {
+display: none;
+}
+
+body.dark {
+background-color: #111;
+color: white;
+transition: 0.4s;
+}
+
+.claro {
+max-width: 50px;
+max-heigth: 50px;
+display: block;
+}
+
